@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: normal;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+body {
+  position: relative;
+  font-size: 20px;
+  line-height: normal;
+  text-align: center;
+  margin: 0;
+  background-color: #ced3d4;
+}
+
+a {
+  color: #eb490a;
+}
+
+/* Елемент img повинен швидко реагувати на розмір 
+відносно ширини батьківського елемента, не перевищуючи 
+його початковий розмір. */
+
+/* Елемент img повинен бути центрований у 
+межах батьківського елемента. */
+#image {
+width: 100%;
+height: auto;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+#img-caption {
+  margin: auto;
+ }
+ 
+ul {
+  display: block;
+  max-width:700px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+li {
+  margin: 16px 0;
+}
+figure {
+  display: block;
+  background-color: #e2ebf1;
+  padding: 10px;
+}
+
+figcaption {
+  display: block;
+  font-style: italic;
+  padding: 6px;
+  padding-top: 12px;
+}
+
+#title{
+  padding: 10px;
+  margin: 5px;
+}
+
+/* # main{
+  padding: 15px;
+} */
+section {
+  display: block;
+}
+
+div {
+  display: block;
+}
